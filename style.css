@@ -59,6 +59,10 @@ nav{
     
 }
 
+
+
+
+
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
@@ -101,30 +105,11 @@ nav{
     background-color: #132175;
 }
 
+.home{margin-top: 10vh;
+    position: relative;}
 
-.home{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position:absolute;top:100px;
-    background-color: #a9a9a948;
-    z-index: 0;
-}
-.home .img{
-    flex: 1 1 500px;
-}
-.home .img img{
-    margin-top: 30px;
-    width: 100%;
-}
-.home .content{
-    flex:  400px;
-    margin-top: 20px;
-}
 .content h1{
+    text-align: center;
     color: rgb(9, 0, 86);
     font-weight: bold;
     margin-left: 23px;
@@ -135,9 +120,8 @@ nav{
 #span2{
     color: #132175;
 }
-.content p{
-    margin-left: 23px;
-}
+
+
 .btn{
     margin-left: 13px;
 }
