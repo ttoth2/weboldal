@@ -1,3 +1,30 @@
+body  {
+    background-image: url('');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,27 +35,7 @@
 #con1{background-color: #000000;
     border-radius: 10px;}
 
-.bg-img-1 {
-        background-image: url('images/Dulux_CF23_Colour_of_the\ year_Flow_global_1.jpg');
-}
-    
-.bg-img-2 {
-        background-image: url('images/Dulux_CF23_Colour_of_the\ year_Flow_global_hero.jpg');
-}
-    
-.bg-img-3 {
-        background-image: url('images/Dulux_CF23_Colour_of_the\ year_Lush_global_hero.jpg');
-}
-    
-.carousel-image {
-        position: relative;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-}
 
-/* navbar */
 nav{
     background: linear-gradient(-45deg, #ce2828, #06090a, #2623d5);
     background-size: 400% 400%;
@@ -43,16 +50,21 @@ nav{
     }
     100% {
         background-position: 0% 50%;
+ 
     }
+
+
+    
 }
+
 .zoom {
     transition: transform .2s;
     margin: 0 auto;
   }
   
   .zoom:hover {
-    -ms-transform: scale(1.3); /* IE 9 */
-    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    -ms-transform: scale(1.3); 
+    -webkit-transform: scale(1.3); 
     transform: scale(1.3); 
   }
 
@@ -86,13 +98,8 @@ nav{
     border: 1px solid #132175;
     background-color: #132175;
 }
-/* navbar */
-
-#overlay{position: relative;}
-#ov2{position: absolute;top:30px;}
 
 
-/* home content */
 .home{
     width: 100%;
     height: 80vh;
@@ -101,11 +108,11 @@ nav{
     justify-content: center;
     flex-wrap: wrap;
     position:absolute;top:100px;
-    background-color: #a9a9a92b;
+    background-color: #a9a9a948;
     z-index: 0;
 }
 .home .img{
-    flex: 1 1 300px;
+    flex: 1 1 400px;
 }
 .home .img img{
     margin-top: 30px;
@@ -136,7 +143,7 @@ nav{
     width: 150px;
     height: 32px;
     letter-spacing: 3px;
-    background-color: rgb(67 0 86);
+    background-color: rgb(1, 0, 86);
     color: white;
     border-radius: 5px;
     border: none;
@@ -173,7 +180,7 @@ nav{
     font-size: 36px;
    }
 }
-/* home content */
+
 
 
 
