@@ -1,6 +1,7 @@
 body  {
-    background-image: url('');
-  background-size:cover;
+    background-image: url('images/photo-1531685250784-7569952593d2.jpg');
+    background-repeat: repeat;
+  
         -webkit-animation: slidein 100s;
         animation: slidein 100s;
 
@@ -40,6 +41,7 @@ nav{
     background: linear-gradient(-45deg, #ce2828, #06090a, #2623d5);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    border: 2px solid black;
 }
 @keyframes gradient {
     0% {
@@ -112,7 +114,7 @@ nav{
     z-index: 0;
 }
 .home .img{
-    flex: 1 1 400px;
+    flex: 1 1 500px;
 }
 .home .img img{
     margin-top: 30px;
