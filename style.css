@@ -1,5 +1,5 @@
 body  {
-    background-image: url('images/photo-1531685250784-7569952593d2.jpg');
+    background-image: url('brick-wall-painted-white.jpg');
     
   
         -webkit-animation: slidein 100s;
@@ -36,13 +36,33 @@ to {background-position: -100px 0px;background-size:2750px;}
 #con1{background-color: #000000;
     border-radius: 10px;}
 
+#karosel{border-radius: 10px;}
+#kosar{ text-align: center ;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #ffffff91;
+    text-align: center;}
 
+.kos1{
+    border: 3px solid #132175;
+    margin: auto;
+    border-radius: 10px;
+    height: 400px;
+    text-align: center;
+
+}
+.kos1{
+    color: #132175;
+    font-size: 50px;
+    text-align: center;
+}
 nav{
     background: linear-gradient(-45deg, #ce2828, #06090a, #2623d5);
-    background-size: 400% 400%;
+    background-size: 8000px 8000px;
     animation: gradient 15s ease infinite;
     border: 2px solid black;
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -100,7 +120,9 @@ nav{
     border-radius: 50px;
     color: white;
     border: 1px solid #132175;
-    background-color: #132175;
+    background: linear-gradient(-45deg, #ce2828, #06090a, #2623d5);
+    background-size: 8000px 8000px;
+    animation: gradient 15s ease infinite;
 }
 
 .home{margin-top: 10vh;
@@ -173,9 +195,16 @@ nav{
 
 
 
+.card{
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+
 
 #product-cards{
     margin-top: 100px;
+    border-radius: 10px;
 }
 #product-cards h1{
     color: #132175;
@@ -191,13 +220,8 @@ nav{
     margin-top: 5px;
     color: black;
 }
-.star i{
-    margin-left: 5px;
-    font-size: 13px;
-}
-.checked{
-    color: #132175;
-}
+
+
 #product-cards .card h2{
     font-size: 20px;
     color: black;
@@ -282,91 +306,7 @@ nav{
 
 
 
-.banner{
-    margin-top: 60px;
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    background-color: #a9a9a92b;
-    z-index: 0;
-}
-.banner .img{
-    flex: 1 1 300px;
-}
-.banner .img img{
-    margin-top: 30px;
-    width: 100%;
-}
-.banner .content{
-    flex: 1 1 400px;
-    margin-top: 20px;
-}
-.banner .content h1{
-    color: rgb(13, 0, 86);
-    font-weight: bold;
-    margin-left: 23px;
-    font-size: 55px;
-    text-shadow: -1px 1px 1px black;
-}
-.banner .content h1 span{
-    color: rgb(19, 0, 86);
-    text-shadow: 1px 1px 1px black;
-}
-#span2{
-    color: #ffc800;
-}
-.banner .content p{
-    margin-left: 23px;
-}
-.btn{
-    margin-left: 13px;
-}
-.btn button{
-    width: 150px;
-    height: 32px;
-    letter-spacing: 3px;
-    background-color: rgb(9, 0, 86);
-    color: white;
-    border-radius: 5px;
-    border: none;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-.btn button:hover{
-    background-color: #3300aa;
-    color: black;
-    border: none;
-}
-@media screen and (max-width:1200px){
-    .banner{
-        height: 90vh;
-    }
-}
-@media screen and (max-width:799px){
-    .banner{
-        height: 140vh;
-    }
-}
-@media screen and (max-width:550px){
-    .banner{
-        height: 110vh;
-    }
-}
-@media screen and (max-width:420px){
-   .banner .content h1{
-    font-size: 45px;
-   }
-}
-@media screen and (max-width:320px){
-   .banner .content h1{
-    font-size: 36px;
-   }
-}
-/* banner */
+
 
 
 
@@ -440,7 +380,7 @@ nav{
     margin-left: 10px;
     border-radius: 3px;
     border: none;
-    background-color: #ffc800;
+    background-color: #132175;
     color: white;
     letter-spacing: 3px;
     font-weight: bold;
@@ -490,18 +430,23 @@ html{
 
 
 
-#login{
-    width: 65%;
+#fiok{
+    width: 70%;
     height: 70vh;
-    background-color: rgb(67 0 86);
+    background-color: #132175;
     margin-top: 35px;
     border-radius: 10px;
     box-shadow: rgba(17,12, 46, 0.15) 0px 48px 100px 0px;
 }
 #side1 h3{
-    color: #ffc800;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 200px;
+}
+#side1{
+    background-color:#132175;
+    height: 70vh;
+    border-radius: 10px;
 }
 #side2{
     background-color: white;
@@ -509,16 +454,16 @@ html{
     border-radius: 10px;
 }
 #side2 h3{
-    margin-top: 30px;
-    color: #ffc800;
+    margin-top: 200px;
+    color: #132175;
     font-weight: bold;
-    text-shadow: 0px 1px 1px black;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.473);
 }
 .input2 input{
     margin-top: 15px;
     width: 300px;
     border: none;
-    border-bottom: 2px solid #ffc800;
+    border-bottom: 2px solid #132175;
 }
 .input2 input ::placeholder{
     font-weight: bold;
@@ -530,12 +475,28 @@ html{
     padding: 10px;
     text-decoration: none;
     border-radius: 15px;
-    background-color: #ffc800;
+    background-color: #132175;
     color: white;
     font-weight: bold;
     border: none;
     text-shadow: 0px 0px 1px black;
 }
+#btnlogin1{
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#btnlogin1 a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #132175;
+    font-weight: bold;
+    border: none;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.521);
+}
+#forgot{color: white;}
+
 #side2 p{
     margin-top: 10px;
 }
@@ -552,35 +513,13 @@ html{
         height: 60vh;
     }
 }
-/* login */
-
-
-
-
-/* about */
-#about{
-    margin-top: 30px;
-}
-#about h3{
-    font-weight: bold;
-    color: #ffc800;
-    text-shadow: 0px 1px 1px black;
-}
-#about button{
-    width: 150px;
-    height: 36px;
-    color: white;
-    background-color: rgb(67 0 86);
-    border-radius: 5px;
-    cursor: pointer;
-}
-/* about */
 
 
 
 
 
-/* contact */
+
+
 #contact{
     margin-top: 50px;
 }
@@ -620,3 +559,102 @@ html{
     color: white;
 }
 
+
+
+#about{background-color: #ffffff;
+border-radius: 10px;}
+#about h3{
+    font-weight: bold;
+    color: #132175;
+    text-shadow: 0px 1px 1px black;
+    font-size: 50px;
+}
+#about button{
+    width: 150px;
+    height: 36px;
+    color: white;
+    background-color:#132175;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#footer{
+    padding: 0 0 30px 0px;
+    color: white;
+    font-size: 14px;
+    background-color:  rgba(255, 255, 255, 0.541);
+    margin-top: 100px;
+}
+#footer .footer-top{
+    padding: 60px 0 30px 0;
+    background-color: rgba(255, 255, 255, 0.541);
+    color: white;
+}
+#footer .footer-top .footer-contact{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3{
+    color: #132175;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: white;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#footer .footer-top .footer-links h4{
+    color: #132175;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 1;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#footer .footer-top .footer-links ul li a:hover{
+    color: #132175;
+}
+#footer .footer-top .socail-links a{
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #373737;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    transition: 0.5s ease;
+}
